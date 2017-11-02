@@ -146,7 +146,7 @@ Then, you get dressed with the traditional black suit, white button-up, and a re
 
 [[Leave the apartment.-&gt;Early Morning - Cafe]]
 
-(set: $hour to &quot;07&quot;, $minute to &quot;00&quot;)</tw-passagedata><tw-passagedata pid="15" name="Alarm" tags="" position="77,566">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos: $Chaos] | Alarm
+(set: $hour to &quot;07&quot;, $minute to &quot;00&quot;)</tw-passagedata><tw-passagedata pid="15" name="Alarm" tags="" position="75.33333333333333,564.3333333333334">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos: $Chaos] | Alarm
 
 **(text-style:&quot;shudder&quot;)[&quot;BZZT! BZZT! BZZT! BZZT! BZZT! BZZT! BZZT!&quot;]**
 
@@ -154,17 +154,16 @@ Then, you get dressed with the traditional black suit, white button-up, and a re
 
 (if: $Day is 1)[[[Hit the snooze button and sleep in a bit more.-&gt;EM - Wake Up 2]]&lt;chaos|(click: ?Chaos1)[(set: $Chaos to $Chaos +1, $hour to &quot;07&quot;, $minute to &quot;00&quot;)]]
 
-</tw-passagedata><tw-passagedata pid="16" name="The Dark World - Night 2" tags="" position="1389.6666666666667,904.3333333333334">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos]
+</tw-passagedata><tw-passagedata pid="16" name="The Dark World - Night 2" tags="" position="1388,902.6666666666667">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos]
 
-(if: $romance)[**(text-style:&quot;shudder&quot;)[&quot;You&#x27;re just like all the other humans - seeking pleasure for themselves. Don&#x27;t get me wrong, it&#x27;s only natural. But I wonder, why do YOU seek it?&quot;]**]
+|cloaked)[$romance]
+(if: $romance is 1)[**(text-style:&quot;shudder&quot;)[&quot;You&#x27;re just like all the other humans - seeking pleasure for themselves. Don&#x27;t get me wrong, it&#x27;s only natural. But I wonder, why do YOU seek it?&quot;]**]
 
 &quot;Because I can.&quot;(click:&quot;Because I can.&quot;)[&lt;chaos|(click: ?Chaos1)[(set: $Chaos to $Chaos +1)]]
 
 &quot;I value relationships.&quot;(click:&quot;I value relationships.&quot;)[&lt;chaos|(click: ?Chaos1)[(set: $Chaos to $Chaos -1)]]
 
-(if: $Chaos is &quot;3&quot;:)[[&quot;Is this true freedom?&quot;]]
-
-[[Alarm]]
+(if: $Chaos is 2)[[[&quot;Why am I doing this?&quot;-&gt;Demo Ending]]]
 
 (set: $Day to it +1)
 
@@ -249,7 +248,7 @@ Oh well, you&#x27;re out early, so you&#x27;re free to do whatever you want for 
 
 [[Check out a movie-&gt;Evening - Leisure A]]
 
-[[ -&gt;Evening - Leisure B]]
+[[Check out the local art museum-&gt;Evening - Leisure B]]
 
 |cloaked)[$romance]</tw-passagedata><tw-passagedata pid="29" name="Evening - Leisure 3" tags="" position="1334,361.3333333333333">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Leisure
 
@@ -261,11 +260,11 @@ Due to the workload, fatigue hit you early and you were forced to go back to you
 
 |cloaked)[$romance]</tw-passagedata><tw-passagedata pid="30" name="Evening - Leisure 4" tags="" position="1335,486">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Leisure
 
-</tw-passagedata><tw-passagedata pid="31" name="Evening - Dinner 2" tags="" position="1612.3333333333333,179.33333333333334">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Dinner
+</tw-passagedata><tw-passagedata pid="31" name="Evening - Dinner 2" tags="" position="1610.6666666666665,179.33333333333334">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Dinner
 
 |cloaked)[$romance]
 
-(if: $romance)[You make your way towards the restaurant bar and you see the girl already sitting at a table.]
+[You make your way towards the restaurant bar and you see the girl already sitting at a table.]
 
 (if: $Day is 0)[[[Go to bed-&gt;The Dark World - Night 1]]]
 
@@ -273,7 +272,7 @@ Due to the workload, fatigue hit you early and you were forced to go back to you
 
 (if: $Day is 2)[[[Go to bed-&gt;The Dark World - Night 3]]]
 
-(if: $Day is 3)[[[Go to bed-&gt;The Dark World - Night 4]]]</tw-passagedata><tw-passagedata pid="32" name="Evening - Dinner 3" tags="" position="1623,359">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Dinner
+(if: $Day is 3)[[[Go to bed-&gt;The Dark World - Night 4]]]</tw-passagedata><tw-passagedata pid="32" name="Evening - Dinner 3" tags="" position="1613,342.3333333333333">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Dinner
 
 It&#x27;s already late, so you decide to heat up a quick bowl of instant ramen and chow down. Your body is too tired to do anything else, so you persuaded yourself to retire for the night.
 
@@ -284,6 +283,8 @@ It&#x27;s already late, so you decide to heat up a quick bowl of instant ramen a
 (if: $Day is 2)[[[Go to bed-&gt;The Dark World - Night 3]]]
 
 (if: $Day is 3)[[[Go to bed-&gt;The Dark World - Night 4]]]</tw-passagedata><tw-passagedata pid="33" name="Evening - Dinner 4" tags="" position="1625,482">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Dinner
+
+Okay, yeah, the restaurant was pretty awesome. The steak was juicy, cooked just right, and the seasoning...mmmmmm. A food coma&#x27;s about to hit, so it might be a good idea to head back home.
 
 (if: $Day is 0)[[[Go to bed-&gt;The Dark World - Night 1]]]
 
@@ -383,7 +384,7 @@ She blushed. &quot;Aw, you&#x27;re welcome! Stay focused, you hear?!&quot;
 
 [[You waved as you rushed towards the metro.-&gt;Work - Management 2]]
 
-(set: $hour to &quot;12&quot;, $minute to &quot;38&quot;)</tw-passagedata><tw-passagedata pid="44" name="Cafe Date Opp" tags="" position="681,242.33333333333334">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Cafe
+(set: $hour to &quot;12&quot;, $minute to &quot;38&quot;)</tw-passagedata><tw-passagedata pid="44" name="Cafe Date Opp" tags="" position="681,240.66666666666669">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Cafe
 
 She beamed, her expression jolting between joy and surprise. &quot;Yeah, sure!&quot; she exclaims with excitement. &quot;Where do you suggest?&quot;
 
@@ -439,11 +440,26 @@ You elegantly consumed the sushi, despite the jealousy of your co-workers throug
 
 (set: $hour to &quot;17&quot;, $minute to &quot;04&quot;)</tw-passagedata><tw-passagedata pid="49" name="Evening - Leisure A" tags="" position="1457,118">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Leisure
 
-[[You remember that you have a date with the girl from the cafe.-&gt;Evening - Dinner 2]]
+You are excited to the new Sharknado 5 - Twisted Edition, so you immediately bolt the theater.
 
-|cloaked)[$romance]</tw-passagedata><tw-passagedata pid="50" name="Evening - Leisure B" tags="" position="1457,242">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Leisure
+|cloaked)[$romance](if: $romance is 1)[[[After the movie, you remember that you have a date with the girl from the cafe.-&gt;Evening - Dinner 2]]]
 
-|cloaked)[$romance]</tw-passagedata></tw-storydata>
+You know of a good steak restaurant that you always wanted to try, but you never had the time. This is our chance!
+
+[[STEAK!-&gt;Evening - Dinner 4]]</tw-passagedata><tw-passagedata pid="50" name="Evening - Leisure B" tags="" position="1463.6666666666667,253.66666666666666">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos](if: $Day is 3)[Chaos $Chaos] | Leisure
+
+The local art museum has always been a common attraction, but your time at work constrained you from visiting it. Now&#x27;s your chance to enjoy some of the greatest artists in the community.
+
+|cloaked)[$romance](if: $romance is 1)[[After you exit the museum, you remember that you have a date with the girl from the cafe.-&gt;Evening - Dinner 2]]
+</tw-passagedata><tw-passagedata pid="51" name="Demo Ending" tags="" position="1601.666666666667,1033.3333333333333">Day $Day | $hour:$minute | (if: $Day is 1)[Chaos: $Chaos](if: $Day is 2)[Chaos $Chaos]
+
+**(text-style:&quot;shudder&quot;)[&quot;What would happen if humans were given the power to...be free? Humans secretly desire to be led, to be ordered. They suppress their chaos, their freedom, for the sake of that order.&quot;]**
+
+That can&#x27;t be true...(click-replace: &quot;That can&#x27;t be true...&quot;)[&quot;Why are you doing this?&quot;]
+
+**(text-style:&quot;shudder&quot;)[&quot;Because......&quot;]**
+
+[[...-&gt;Demo Final Ending]]</tw-passagedata><tw-passagedata pid="52" name="Demo Final Ending" tags="" position="1761.6666666666667,1035">**(text-style:&quot;shudder&quot;)[&quot;It&#x27;s fun.&quot;]**</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
