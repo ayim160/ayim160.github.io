@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-1"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">Trap Room</command>
+    <result xml:space="preserve">Test Project Alpha v.1.0&#x000A;An Interactive Fiction by Yim&#x000A;Release 1 / Serial number 171116 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Center&#x000A;Your vision blurred as you came to. Your memory is hazy and you can't remember the last time you were awake. You look around and find yourself in what looks like a beat-down motel room.&#x000A;&#x000A;As you sit up, you can't help but notice that you were lying on a disgusting rug.&#x000A;&#x000A;You notice a tape recorder next to you. Odd. Maybe you should switch it on and find out if there's anything useful on it?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-6"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-12"/>
+      <child nodeId="node-14"/>
+      <child nodeId="node-18"/>
+      <child nodeId="node-19"/>
+      <child nodeId="node-25"/>
+      <child nodeId="node-32"/>
+      <child nodeId="node-36"/>
+      <child nodeId="node-45"/>
+      <child nodeId="node-55"/>
+      <child nodeId="node-80"/>
+      <child nodeId="node-83"/>
+      <child nodeId="node-91"/>
+      <child nodeId="node-97"/>
+      <child nodeId="node-118"/>
+      <child nodeId="node-165"/>
+      <child nodeId="node-167"/>
+      <child nodeId="node-174"/>
+      <child nodeId="node-215"/>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">enter cabin</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">go in cabin</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">look at cabin</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">look for shelter</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">Find shelter</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">look shelter</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">find shelter</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">see shelter</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">find cabin</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">help</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">Grab torch</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">Examine torch</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">Examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">Look at room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">Grab backpack</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">Take backpack</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">Look</command>
+    <result xml:space="preserve">Dungeon&#x000A;You wake up in a room with metallic walls a lamp above you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">Table</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">Examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">Examine</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">Dungeon</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">Grab backpack</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">examine table</command>
+    <result xml:space="preserve">You see nothing special about Wooden Table.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">Examine room.</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">Examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">Examine Unknown Location</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">Examine unknown location</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">Look at room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">look at unknown room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">look at unknown location</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">examine unknown location</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">Take items</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">Take things</command>
+    <result xml:space="preserve">Flashlight: Taken.&#x000A;Knife: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">Take Backpack</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">Take flashlight</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">Take backpack</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">Use flashlight</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">Switch on flashlight</command>
+    <result xml:space="preserve">It isn't something you can switch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">It isn't something you can switch.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">look at rug</command>
+    <result xml:space="preserve">A crusty, old, disgusting rug. Is there no decency for hygiene?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">look northwest</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">look at tape recorder</command>
+    <result xml:space="preserve">The tape recorder is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">switch on tape recorder</command>
+    <result xml:space="preserve">You switch the tape recorder on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">look at tape recorder</command>
+    <result xml:space="preserve">The tape recorder is currently switched on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">listen to tape recorder</command>
+    <result xml:space="preserve">You hear nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">examine tape recorder</command>
+    <result xml:space="preserve">The tape recorder is currently switched on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">look at tape recorder</command>
+    <result xml:space="preserve">The tape recorder is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+      <child nodeId="node-85"/>
+      <child nodeId="node-88"/>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">switch tape recorder on</command>
+    <result xml:space="preserve">You switch the tape recorder on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">listen to tape recorder</command>
+    <result xml:space="preserve">You hear nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">take recorder</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">turn on recorder</command>
+    <result xml:space="preserve">The tape plays and a heavily altered and ominous voice plays. "Hey, so you're not supposed to hear this, but you've been...abducted...to play this so-called "game" created by my father. I know, I know. It's pretty fucked up, you know, without your consent and whatnot. My dad is a...strange, maniacal man. He likes to toy with his prey before he kills them. Speaking of which, you need to get out of there as fast as you can. If you don't, you'll either be stuck there or die. Look around the room, search for clues, do anything necessary to leave this place! However, be careful with what you do. Committing certain actions without thinking about the consequences may jeopardize your chance of beating this game. Good luck." The tape ends.&#x000A;&#x000A;You switch the tape recorder on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">switch off recorder</command>
+    <result xml:space="preserve">You switch the tape recorder off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">look around room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">look around center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">look northwest</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">play tape recorder</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">turn on tape recorder</command>
+    <result xml:space="preserve">The tape plays and a heavily altered and ominous voice plays.&#x000A;"Hey, so you're not supposed to hear this, but you've been...abducted...to play this so-called "game" created by my father. I know, I know. It's pretty fucked up, you know, without your consent and whatnot. My dad is a...strange, maniacal man. He likes to toy with his prey before he kills them. Speaking of which, you need to get out of there as fast as you can. If you don't, you'll either be stuck there or die. Look around the room, search for clues, do anything necessary to leave this place! However, be careful with what you do. Committing certain actions without thinking about the consequences may jeopardize your chance of beating this game. Good luck."&#x000A;The tape ends.&#x000A;&#x000A;You switch the tape recorder on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">look northwest</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Kitchen&#x000A;The Kitchen reeks of something putrid. You cannot make out what the smell is or where it is coming from.&#x000A;&#x000A;You can see Sink, Countertop, Stove, Oven, Kitchen cabinets (closed) and Refrigerator (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;In Refrigerator is Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">look at bag</command>
+    <result xml:space="preserve">You see nothing special about Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Kitchen&#x000A;The Kitchen reeks of something putrid. You cannot make out what the smell is or where it is coming from.&#x000A;&#x000A;You struggle to open the fridge, but it's being held together by a thick red and brown gel. The gel resembles blood, but you can't be sure. You also take a whiff of an odor leaking from the small opening and it...is...horrible. Rotten food, maybe?&#x000A;&#x000A;You can also see Sink, Countertop, Stove, Oven (closed) and Kitchen cabinets (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-56"/>
+      <child nodeId="node-65"/>
+      <child nodeId="node-68"/>
+      <child nodeId="node-72"/>
+      <child nodeId="node-78"/>
+      <child nodeId="node-122"/>
+      <child nodeId="node-131"/>
+      <child nodeId="node-135"/>
+      <child nodeId="node-143"/>
+      <child nodeId="node-147"/>
+      <child nodeId="node-150"/>
+      <child nodeId="node-194"/>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a large red and brown bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-58"/>
+      <child nodeId="node-59"/>
+      <child nodeId="node-76"/>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">look in fridge</command>
+    <result xml:space="preserve">In Refrigerator is Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">look at large bag</command>
+    <result xml:space="preserve">You see nothing special about Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">open large bag</command>
+    <result xml:space="preserve">You open Large bag, revealing Body parts.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">Take body parts</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">look at large bag</command>
+    <result xml:space="preserve">You see nothing special about Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">open large bag</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">look at bag</command>
+    <result xml:space="preserve">It is a red and brown bag. You can't see what's inside it, but there's a horrid odor coming from it. How long did it have to be in here for it to get that rotten? It also looks like there are large ox tails in it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-77"/>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;In Refrigerator is Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">NOPE! Holy shit! There is an arm and a leg in the bag! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Sink: Taken.&#x000A;Stove: Taken.&#x000A;Oven: Taken.&#x000A;Kitchen cabinets: Taken.&#x000A;Refrigerator: Taken.&#x000A;Large bag: Taken.&#x000A;Dismembered arm: Taken.&#x000A;Dismembered leg: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">NOPE! Holy shit! There is an arm and a leg in the bag! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a large red and brown bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-66"/>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">look at large bag</command>
+    <result xml:space="preserve">You see nothing special about Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">open large bag</command>
+    <result xml:space="preserve">You open Large bag, revealing Body parts.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">NOPE! Holy shit! There is an arm and a leg in the bag! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Large bag: Taken.&#x000A;Dismembered arm: It looks like it has been sliced off. The cut is also pretty clean...&#x000A;&#x000A;It looks like it has been sliced off. Other than the clean cut, it was pretty muscular...&#x000A;&#x000A;Taken.&#x000A;Dismembered leg: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">take leg</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">look at oven</command>
+    <result xml:space="preserve">It's a broken oven. What else do you want to know?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">HOLY SHIT THERE IS A DECAPITATED HEAD IN HERE! HOLY ****** SHIT! WHAT THE HELL IS GOING ON HERE?!&#x000A;&#x000A;You open Oven, revealing Decapitated head.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">take head</command>
+    <result xml:space="preserve">It's a hairless head of a...well the skin is so burnt you can't even make out who it possibly could've been.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">look at head</command>
+    <result xml:space="preserve">There's a note attached to one of the head's tooth. It reads, "For the purpose of this demonstration, present this and two other keys to the exit. Only then can you escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Exit&#x000A;The Exit...is it the way out?&#x000A;&#x000A;You can see a metal slab here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">use head</command>
+    <result xml:space="preserve">You present the decapitated head to the door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">open metal slab</command>
+    <result xml:space="preserve">You open the metal slab.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Freedom&#x000A;You can see a metal slab here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">look at refrigerator</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">open refrigerator</command>
+    <result xml:space="preserve">You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;In Refrigerator is Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">look at fride</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;In Refrigerator is Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">look at refrigeration</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">lok at fridge</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">look at large bag</command>
+    <result xml:space="preserve">It is a red and brown bag. You can't see what's inside it, but there's a horrid odor coming from it. How long did it have to be in here for it to get that rotten?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">open large bag</command>
+    <result xml:space="preserve">Holy shit! There is an arm and a leg here! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">open large bag</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">close large bag</command>
+    <result xml:space="preserve">You close Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">open large bag</command>
+    <result xml:space="preserve">Holy shit! There is an arm and a leg here! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">open refrigerator</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">NOPE! Holy shit! There is an arm and a leg in the bag! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">take sink</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a large red and brown bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">NOPE! Holy shit! There is an arm and a leg in the bag! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Large bag: Taken.&#x000A;Dismembered arm: Taken.&#x000A;Dismembered leg: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Dismembered leg&#x000A;  Dismembered arm&#x000A;  Large bag (open but empty)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">exit kitchen</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">exit kitchen to center</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">look at oven</command>
+    <result xml:space="preserve">It's a broken oven. What else do you want to know?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-144"/>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">HOLY SHIT THERE IS A DECAPITATED HEAD IN HERE! HOLY ****** SHIT! WHAT THE HELL IS GOING ON HERE?!&#x000A;&#x000A;You open Oven, revealing Decapitated head.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">look at decapitated head</command>
+    <result xml:space="preserve">It's a hairless head of a...well the skin is so burnt you can't even make out who it possibly could've been.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">take head</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">take oven</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">HOLY SHIT THERE IS A DECAPITATED HEAD IN HERE! HOLY ****** SHIT! WHAT THE HELL IS GOING ON HERE?!&#x000A;&#x000A;You open Oven, revealing Decapitated head.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">take head</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">look at head</command>
+    <result xml:space="preserve">It's a hairless head of a...well the skin is so burnt you can't even make out who it possibly could've been.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">look at sink</command>
+    <result xml:space="preserve">There's a butter knife in the sink.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+      <child nodeId="node-149"/>
+      <child nodeId="node-202"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">look at butter knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">take butter knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a large red and brown bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">look at bag</command>
+    <result xml:space="preserve">It is a red and brown bag. You can't see what's inside it, but there's a horrid odor coming from it. How long did it have to be in here for it to get that rotten? It also looks like there are large ox tails in it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">NOPE! Holy shit! There is an arm and a leg in the bag! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">Large bag: Taken.&#x000A;Dismembered arm: Taken.&#x000A;Dismembered leg: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">look at sink</command>
+    <result xml:space="preserve">There's a butter knife in the sink.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Butter knife&#x000A;  Dismembered leg&#x000A;  Dismembered arm&#x000A;  Large bag (open but empty)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">look at sink</command>
+    <result xml:space="preserve">There's a butter knife in the sink.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Butter knife&#x000A;  Dismembered leg&#x000A;  Dismembered arm&#x000A;  Large bag (open but empty)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Center&#x000A;Your vision blurred as you came to. Your memory is hazy and you can't remember the last time you were awake. You look around and find yourself in what looks like a beat-down motel room.&#x000A;&#x000A;As you sit up, you can't help but notice that you were lying on a disgusting rug.&#x000A;&#x000A;You notice a tape recorder next to you. Odd. Maybe you should switch it on and find out if there's anything useful on it?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">take rug</command>
+    <result xml:space="preserve">What the...there's a bent floorboard here. I wonder if I can lift it?&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+      <child nodeId="node-185"/>
+      <child nodeId="node-189"/>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">look at bent floorboard</command>
+    <result xml:space="preserve">It looks like the floorboard was removed once before, and there's a gap big enough to store a tool or something. How can I get down there?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">use butter knife</command>
+    <result xml:space="preserve">You cannot use the butter knife here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-184"/>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">open bent floorboard</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">use butter knife on bent floorboard</command>
+    <result xml:space="preserve">I only understood you as far as wanting to use Butter knife.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">open bent floorboard</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve">look at floorboard</command>
+    <result xml:space="preserve">It looks like the floorboard was removed once before, and there's a gap big enough to store a tool or something. How can I get down there?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">use butter knife</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">look at floorboad</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">look at floorboard</command>
+    <result xml:space="preserve">It looks like the floorboard was removed once before, and there's a gap big enough to store a tool or something. How can I get down there?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">use butter knife</command>
+    <result xml:space="preserve">You place the end of the butter knife underneath the floorboard and pushed down on the opposite end. The floorboard bends upwards and soon enough, it pries open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">use knife</command>
+    <result xml:space="preserve">You place the end of the butter knife underneath the floorboard and pushed down on the opposite end. The floorboard bends upwards and soon enough, it pries open. Hidden under the shadows is what looks like a meat cleaver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">take cleaver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Center&#x000A;Your vision blurred as you came to. Your memory is hazy and you can't remember the last time you were awake. You look around and find yourself in what looks like a beat-down motel room.&#x000A;&#x000A;As you sit up, you can't help but notice that you were lying on a disgusting rug.&#x000A;&#x000A;You notice a tape recorder next to you. Odd. Maybe you should switch it on and find out if there's anything useful on it?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">take rug</command>
+    <result xml:space="preserve">What the...there's a bent floorboard here. I wonder if I can lift it?&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">look at floorboard</command>
+    <result xml:space="preserve">It looks like the floorboard was removed once before, and there's a gap big enough to store a tool or something. How can I get down there?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">use knife</command>
+    <result xml:space="preserve">You place the end of the butter knife underneath the floorboard and pushed down on the opposite end. The floorboard bends upwards and soon enough, it pries open. Hidden under the shadows is what looks like a meat cleaver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">take cleaver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">look at cleaver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">open floorboard</command>
+    <result xml:space="preserve">You open Bent floorboard, revealing Cleaver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">look at cleaver</command>
+    <result xml:space="preserve">It's pretty dark down there so you can't really make out the cleaver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">take cleaver</command>
+    <result xml:space="preserve">It looks like it's in good condition, but you couldn't help but notice that there's a bit of dried blood on its edge... Don't think about it.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Living Area&#x000A;The Living Area does not look too fancy. Everything looks old and dirty. I mean...what else are you looking for.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">look at box tv</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">look at box TV</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">open floorboard</command>
+    <result xml:space="preserve">You open Bent floorboard, revealing Cleaver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">take cleaver</command>
+    <result xml:space="preserve">It looks like it's in good condition, but you couldn't help but notice that there's a bit of dried blood on its edge... Don't think about it.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Kitchen&#x000A;The Kitchen reeks of something putrid. You cannot make out what the smell is or where it is coming from.&#x000A;&#x000A;You can see Refrigerator (closed), Sink, Countertop, Stove, Oven (closed) and Kitchen cabinets (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">There is a large red and brown bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Oven, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">take bag</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">NOPE! Holy shit! There is an arm and a leg in the bag! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">take arm</command>
+    <result xml:space="preserve">It looks like it has been sliced off. The cut is also pretty clean...&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">take leg</command>
+    <result xml:space="preserve">It looks like it has been sliced off. Other than the clean cut, it was pretty muscular...&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">use cleaver</command>
+    <result xml:space="preserve">You saw through the enigmatic gel with the cleaver, blood dripping everywhere, but at least you got it open. The smell is even stronger now, so you cover your nose as you look further into the fridge.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">HOLY SHIT THERE IS A DECAPITATED HEAD IN HERE! HOLY ****** SHIT! WHAT THE HELL IS GOING ON HERE?!&#x000A;&#x000A;You open Refrigerator, revealing Decapitated head.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-264"/>
+    </children>
+  </item>
+  <item nodeId="node-264">
+    <command xml:space="preserve">look at head</command>
+    <result xml:space="preserve">There's a note attached to one of the head's tooth. It reads, "For the purpose of this demonstration, present this and two other keys to the exit. Only then can you escape."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-265"/>
+    </children>
+  </item>
+  <item nodeId="node-265">
+    <command xml:space="preserve">take head</command>
+    <result xml:space="preserve">It's a hairless head of a...well the skin is so burnt you can't even make out who it possibly could've been.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-266"/>
+    </children>
+  </item>
+  <item nodeId="node-266">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Exit&#x000A;The Exit...is it the way out?&#x000A;&#x000A;You can see a metal slab here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-267"/>
+    </children>
+  </item>
+  <item nodeId="node-267">
+    <command xml:space="preserve">use head</command>
+    <result xml:space="preserve">You present the decapitated head to the door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-268"/>
+    </children>
+  </item>
+  <item nodeId="node-268">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-269"/>
+    </children>
+  </item>
+  <item nodeId="node-269">
+    <command xml:space="preserve">open slab</command>
+    <result xml:space="preserve">You open the metal slab.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-270"/>
+    </children>
+  </item>
+  <item nodeId="node-270">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Freedom&#x000A;Congratulations! You've gotten out...for now. But you'll be back.&#x000A;&#x000A;You can see a metal slab here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">lok at sink</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">look at sink</command>
+    <result xml:space="preserve">The sink may be incapable of running water, but there's a butter knife in it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">take butter knife</command>
+    <result xml:space="preserve">That's hardly portable.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">take butter knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">look at sink</command>
+    <result xml:space="preserve">There's a butter knife in the sink.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">take butter knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-197"/>
+    </children>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Center&#x000A;Your vision blurred as you came to. Your memory is hazy and you can't remember the last time you were awake. You look around and find yourself in what looks like a beat-down motel room.&#x000A;&#x000A;As you sit up, you can't help but notice that you were lying on a disgusting rug.&#x000A;&#x000A;You notice a tape recorder next to you. Odd. Maybe you should switch it on and find out if there's anything useful on it?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">take rug</command>
+    <result xml:space="preserve">What the...there's a bent floorboard here. I wonder if I can lift it?&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">look at floorboard</command>
+    <result xml:space="preserve">It looks like the floorboard was removed once before, and there's a gap big enough to store a tool or something. How can I get down there?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">use butter knife</command>
+    <result xml:space="preserve">You place the end of the butter knife underneath the floorboard and pushed down on the opposite end. The floorboard bends upwards and soon enough, it pries open. Hidden under the shadows is what looks like a meat cleaver.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">take cleaver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">open oven</command>
+    <result xml:space="preserve">There is a large red and brown bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;You open Oven, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-243"/>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">look at head</command>
+    <result xml:space="preserve">There's a note attached to one of the head's tooth. It reads, "For the purpose of this demonstration, present this and two other keys to the exit. Only then can you escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">take head</command>
+    <result xml:space="preserve">It's a hairless head of a...well the skin is so burnt you can't even make out who it possibly could've been.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Exit&#x000A;The Exit...is it the way out?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">look at door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">take bag</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">open bag</command>
+    <result xml:space="preserve">NOPE! Holy shit! There is an arm and a leg in the bag! Holy shit! Holy shit! The inside of the bag is also covered in chunky brown blobs of blood! What the actual hell?!&#x000A;&#x000A;You open Large bag, revealing Dismembered arm and Dismembered leg.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">take arm</command>
+    <result xml:space="preserve">It looks like it has been sliced off. The cut is also pretty clean...&#x000A;&#x000A;It looks like it has been sliced off. Other than the clean cut, it was pretty muscular...&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">look at tape recorder</command>
+    <result xml:space="preserve">The tape recorder is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">switch on tape recorder</command>
+    <result xml:space="preserve">You can't quite make out who is speaking, but the voice is heavily altered and ominous, "You have been selected to play this game. Do not worry, you are not in any mortal dangers...yet. Your goal is to escape this room. Relax, there is no timer, so feel free to take your time. However, do be careful. Committing certain actions without thinking about the consequences can be...dangerous."&#x000A;&#x000A;You switch the tape recorder on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">switch off tape recorder</command>
+    <result xml:space="preserve">You switch the tape recorder off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">Take tape recorder</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">switch on tape recorder</command>
+    <result xml:space="preserve">The tape plays and a heavily altered and ominous voice plays. "Hey, so you're not supposed to hear this, but you've been covertly selected to play this so-called "game" created by my father. I know, I know. It's pretty fucked up, you know, without your consent and whatnot. My dad is a...strange, maniacal man. He likes to toy with his prey before he kills them. Speaking of which, you need to get out of there as fast as you can. If you don't, you'll either be stuck there or die. Look around the room, search for clues, do anything necessary to leave this place! However, be careful with what you do. Committing certain actions without thinking about the consequences may jeopardize your chance of beating this game. Good luck." The tape ends.&#x000A;&#x000A;You switch the tape recorder on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">look around center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">look at center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">go to center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">stay put</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">stay</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">look north</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">examine center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">examine center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">examine the center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">examine around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">look at center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">look around center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">look around room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">examine center</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">go to kitchen</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">go to kitchen</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Kitchen&#x000A;The Kitchen reeks of something putrid. You cannot make out what the smell is or where it is coming from.&#x000A;&#x000A;You can see Sink, Countertop, Stove, Oven, Kitchen cabinets (closed) and Refrigerator (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">look at fridge</command>
+    <result xml:space="preserve">It's a plain white refrigerator with red and brown splashes all over it. You have no idea what it is, but you don't want to catch something, do you?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You struggle to open the fridge door due to a gel-like substance outlining its edges. As you slowly pull the door open, the gel pulls apart and you cover your nose immediately. There is a red and large bag on the shelf, and the stench coming from it was putrid. Old, moldy food? Whatever it is, it is not pleasant.&#x000A;&#x000A;Holy shit. There is an arm and a leg here. Holy shit. Holy shit. The inside of the bag is also covered in chunky brown blobs of blood. What the actual hell?!&#x000A;&#x000A;You open Refrigerator, revealing Large bag.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Rest Area&#x000A;The Rest Area no longer suits its purpose. There is a bed with torn sheets and no blanket, a cracked wooden desk with no chair, and a dusty closet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Closet&#x000A;It's a regular closet, but there aren't any clothes. Just...nothing but dust. Yeah. That's it. It's a closet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">take rug</command>
+    <result xml:space="preserve">What the...there's a bent floorboard here. I wonder if I can lift it?&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+      <child nodeId="node-171"/>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a rug&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">open floorboard</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">open bent floorboard</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">open bent floorboard</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">take bent floorboard</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">look at bent floorboard</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">take a rug</command>
+    <result xml:space="preserve">What the...there's a bent floorboard here. I wonder if I can lift it?&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">open bent floorboard</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Kitchen&#x000A;The Kitchen reeks of something putrid. You cannot make out what the smell is or where it is coming from.&#x000A;&#x000A;You can see Sink, Countertop, Stove, Oven (closed), Kitchen cabinets (closed) and Refrigerator (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">look at sink</command>
+    <result xml:space="preserve">There's a butter knife in the sink.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">take butter knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Center&#x000A;Your vision blurred as you came to. Your memory is hazy and you can't remember the last time you were awake. You look around and find yourself in what looks like a beat-down motel room.&#x000A;&#x000A;You notice a tape recorder next to you. Odd. Maybe you should switch it on and find out if there's anything useful on it?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Living Area&#x000A;The Living Area does not look too fancy. Everything looks old and dirty. I mean...what else are you looking for.&#x000A;&#x000A;You can see Box TV here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">look at box tv</command>
+    <result xml:space="preserve">It's an old box TV with antennaes. It has been a long time since you've seen one of those. Then again, everything in this room is pretty ancient. You press the power button, but it doesn't seem to work. No electricity maybe?&#x000A;&#x000A;Box TV is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">see box tv</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">look at box tv</command>
+    <result xml:space="preserve">It's an old box TV with antennaes. It has been a long time since you've seen one of those. Then again, everything in this room is pretty ancient. You press the power button, but it doesn't seem to work. You check the plug and it's plugged in. No electricity, maybe?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Center&#x000A;Your vision blurred as you came to. Your memory is hazy and you can't remember the last time you were awake. You look around and find yourself in what looks like a beat-down motel room.&#x000A;&#x000A;As you sit up, you can't help but notice that you were lying on a disgusting rug.&#x000A;&#x000A;You notice a tape recorder next to you. Odd. Maybe you should switch it on and find out if there's anything useful on it?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Bathroom&#x000A;The Bathroom is dirty and mold everywhere. There's a bathroom sink, a toilet, and a bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">look at sink</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">look at bathroom sink</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Bathroom&#x000A;The Bathroom is dirty and mold everywhere.&#x000A;&#x000A;You can see Dirty sink, Mirror, Toilet and Bathtub here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">look at dirty sink</command>
+    <result xml:space="preserve">It completely covered in some disgusting red and brown substance. You don't want to know what it is.&#x000A;&#x000A;Dirty sink is currently switched off.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">look at bathtub</command>
+    <result xml:space="preserve">You see nothing special about Bathtub.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">look at mirror</command>
+    <result xml:space="preserve">What are you looking at?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
